@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class week1a {
+public class lab1a {
 
     public static void main(String[] args) {
         exercise3();
