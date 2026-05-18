@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class lab1a {
 
     public static void main(String[] args) {
-        exercise3();
+        exercise2();
     }
 
     public static void exercise1() {
@@ -45,15 +45,14 @@ public class lab1a {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter a 5 digit number: ");
         int num = obj.nextInt();
-        String numString = String.valueOf(num);
         System.out.printf(
-            "Digits in %d are %s %s %s %s %s",
+            "Digits in %d are %d %d %d %d %d",
             num,
-            numString.charAt(0),
-            numString.charAt(1),
-            numString.charAt(2),
-            numString.charAt(3),
-            numString.charAt(4)
+            num / 10000,
+            (num % 10000) / 1000,
+            (num % 1000) / 100,
+            (num % 100) / 10,
+            (num % 10)
         );
 
         obj.close();
