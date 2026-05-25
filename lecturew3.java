@@ -12,7 +12,10 @@ public class lecturew3 {
             Arrays.asList(1, 2, 3)
         );
 
+        // Array List Operations
         specialNumbers.add(10);
+        specialNumbers.set(0, 67);
+        specialNumbers.remove((2));
 
         for (Integer number : specialNumbers) {
             System.out.println(number);
