@@ -17,6 +17,7 @@ public class lecturew3 {
         specialNumbers.set(0, 67);
         specialNumbers.remove((2));
 
+
         for (Integer number : specialNumbers) {
             System.out.println(number);
         }
